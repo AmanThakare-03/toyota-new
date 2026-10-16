@@ -185,7 +185,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 <tr><td><b>Total exchange capacity</b></td><td>Equal or higher, so run length is maintained or improved.</td></tr>
 <tr><td><b>Bead size &amp; type</b></td><td>Comparable size for the same pressure drop; consider macroporous if fouling or osmotic shock aged the last charge.</td></tr>
 </tbody></table></div>
-<p>The typical AGRION grades for a two-bed DM plant resin replacement are the cation stage grade, a Type 1 strong base anion, and a mixed bed for polishing. Browse the <Link to="/products/cation-exchange-resins">cation</Link>, <Link to="/products/anion-exchange-resins">anion</Link> and <Link to="/products/mixed-bed-resins">mixed bed</Link> ranges, and share the grade you run today — or its TDS — and we will confirm the equivalent without needing a competitor’s brand name.</p>
+<p>The typical AGRION grades for a two-bed DM plant resin replacement are the cation stage grade, a Type 1 strong base anion, and a mixed bed for polishing. Browse the <Link to="/products/cationexchangeresins">cation</Link>, <Link to="/products/anionexchangeresins">anion</Link> and <Link to="/products/mixedbedexchangeresin">mixed bed</Link> ranges, and share the grade you run today — or its TDS — and we will confirm the equivalent without needing a competitor’s brand name.</p>
 <h2 id="cost">The real cost of delaying a DM plant resin replacement</h2>
 <p>It is tempting to squeeze a few more months out of a tired charge, but the economics rarely favour it. As resin degrades, three costs climb quietly: you burn more acid and caustic per unit of water; you lose production time to more frequent regenerations; and you run closer to an off-spec event that can damage a boiler or turbine downstream. Against those, the cost of a planned change is small and predictable.</p>
 <p>The worst case is the unplanned failure — resin that gives out mid-run, water off-spec, and an emergency shutdown at the worst possible moment. A planned change, scheduled from trended data into a maintenance window, converts that risk into a few controlled hours. In other words, the cheapest resin change is the one you see coming; the most expensive is the one that surprises you. Trending your outlet numbers is what buys you that foresight.</p>
@@ -219,7 +219,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 <p>Share your outlet trends and current grade — we’ll advise regenerate or replace, and attach the TDS.</p>
 <Link className="btn btn-green" to="/contact">Send an enquiry</Link>
 <a className="btn btn-wa" href="https://wa.me/919898701010">WhatsApp us</a>
-<a className="btn btn-wa" href="tel:+912602432021">Call +91 260 2432021</a>
+<a className="btn btn-wa" href="tel:+919016711708">Call +91 90167 11708</a>
 </div>
 <div className="box"><h4>Related guides</h4><ul>
 <li><Link to="/blog/how-to-select-cation-resin-dm-plant">Selecting a cation resin for your DM plant</Link></li>
@@ -227,11 +227,11 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 <li><Link to="/blog/macroporous-vs-gel-resins">Macroporous vs gel resins</Link></li>
 </ul></div>
 <div className="box"><h4>Products</h4><ul>
-<li><Link to="/products/cation-exchange-resins">Cation Exchange Resins</Link></li>
-<li><Link to="/products/anion-exchange-resins">Anion Exchange Resins</Link></li>
-<li><Link to="/products/mixed-bed-resins">Mixed Bed Resins</Link></li>
-<li><Link to="/products/water-softener-resins">Water Softener Resins</Link></li>
-<li><Link to="/products/specialty-resins">Specialty Resins</Link></li>
+<li><Link to="/products/cationexchangeresins">Cation Exchange Resins</Link></li>
+<li><Link to="/products/anionexchangeresins">Anion Exchange Resins</Link></li>
+<li><Link to="/products/mixedbedexchangeresin">Mixed Bed Resins</Link></li>
+<li><Link to="/products/watersoftenerresins">Water Softener Resins</Link></li>
+<li><Link to="/products/specialtyresins">Specialty Resins</Link></li>
 </ul></div>
 <div className="box"><h4>Applications</h4><ul>
 <li><Link to="/applications/dm-plant-resin">DM Plant / Demineralisation</Link></li>
@@ -246,7 +246,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 </div></section>
 
 </main>
-<div className="sticky"><a className="btn btn-white" href="tel:+912602432021">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
+<div className="sticky"><a className="btn btn-white" href="tel:+919016711708">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
 
 
     </>

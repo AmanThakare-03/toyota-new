@@ -1,3 +1,4 @@
+import { INDUSTRY_PATH, LEGACY_REDIRECTS, PRODUCT_PATH } from "../config/routes";
 import { DEFAULT_OG_IMAGE } from "../config/site";
 import { getBlogPost } from "../pages/Blog/posts";
 
@@ -14,27 +15,27 @@ const PAGES = {
     description:
       "The complete Toyota AGRION resin portfolio — cation, anion, mixed bed, water softener and specialty grades, each supplied with its technical data sheet.",
   },
-  "/products/cationanion": {
+  [PRODUCT_PATH.cation]: {
     title: "Cation Exchange Resins | Toyota Chemical Industries",
     description:
       "Strong acid and weak acid cation exchange resins in sodium and hydrogen form for softening, DM plant cation duty, dealkalisation and heavy-metal removal.",
   },
-  "/products/anion": {
+  [PRODUCT_PATH.anion]: {
     title: "Anion Exchange Resins | Toyota Chemical Industries",
     description:
       "Strong base and weak base anion exchange resins, Type 1 and Type 2, for demineralisation, mixed bed polishing and organic removal.",
   },
-  "/products/mixedbed": {
+  [PRODUCT_PATH.mixedBed]: {
     title: "Mixed Bed Resins | Toyota Chemical Industries",
     description:
       "Ready-mixed cation–anion mixed bed resins for polishing to ultrapure water and for condensate polishing duty.",
   },
-  "/products/watersoftener": {
+  [PRODUCT_PATH.waterSoftener]: {
     title: "Water Softener Resins | Toyota Chemical Industries",
     description:
       "Sodium-form strong acid cation resins for hardness removal and boiler feed protection in water softening plants.",
   },
-  "/products/specialty": {
+  [PRODUCT_PATH.specialty]: {
     title: "Specialty Resins | Toyota Chemical Industries",
     description:
       "Chelating, indicator and application-specific ion exchange resins for metal recovery and specialised process duties.",
@@ -79,32 +80,32 @@ const PAGES = {
     description:
       "Ion exchange resins for the power, chemical, food and beverage, paper, sugar and textile industries across India.",
   },
-  "/industries/chemical": {
+  [INDUSTRY_PATH.chemical]: {
     title: "Ion Exchange Resins for Chemical Industries | Toyota Chemical Industries",
     description:
       "Process demineralisation, softening, heavy-metal removal and ZLD resins for chemical and intermediates manufacturing.",
   },
-  "/industries/food-beverage": {
+  [INDUSTRY_PATH.foodBeverage]: {
     title: "Ion Exchange Resins for Food & Beverage | Toyota Chemical Industries",
     description:
       "Process water, softening and demineralisation resins for food and beverage manufacturing.",
   },
-  "/industries/paper": {
+  [INDUSTRY_PATH.paperPulp]: {
     title: "Ion Exchange Resins for Paper & Pulp | Toyota Chemical Industries",
     description:
       "Process water and boiler feed resin solutions for paper and pulp mills.",
   },
-  "/industries/power-thermal": {
+  [INDUSTRY_PATH.powerThermal]: {
     title: "Ion Exchange Resins for Power & Thermal Plants | Toyota Chemical Industries",
     description:
       "DM plant, condensate polishing and softening resins for power and thermal generation.",
   },
-  "/industries/sugar-seo-kit": {
+  [INDUSTRY_PATH.sugarRefinery]: {
     title: "Ion Exchange Resins for Sugar Processing | Toyota Chemical Industries",
     description:
       "Softening, demineralisation and process water resin support for sugar processing plants.",
   },
-  "/industries/textile": {
+  [INDUSTRY_PATH.textile]: {
     title: "Ion Exchange Resins for Textile & Dyeing | Toyota Chemical Industries",
     description:
       "Water treatment resins for textile processing and dyeing — softening, demineralisation and effluent duties.",
@@ -124,6 +125,11 @@ const PAGES = {
     description:
       "Toyota Chemical Industries is an ion exchange resin manufacturer in India — cation, anion, mixed bed and specialty resins supplied direct from our GIDC Vapi plant since 1972.",
   },
+  "/service-area": {
+    title: "Ion Exchange Resin Supplier in Vapi & Across India | Toyota Chemical Industries",
+    description:
+      "Ion exchange resins supplied across the Vapi–Valsad–Daman–Silvassa belt, Surat and South Gujarat, and to industry across India — direct from our GIDC Vapi plant, 25 L to bulk.",
+  },
   "/quality-compliance": {
     title: "Quality & Certifications | Toyota Chemical Industries",
     description:
@@ -132,7 +138,7 @@ const PAGES = {
   "/contact": {
     title: "Contact Toyota Chemical Industries",
     description:
-      "Contact our technical team for resin selection, datasheet requests and quotations. Factory at GIDC Vapi, Gujarat — call +91 260 2432021 or email info@toyotachemicals.co.in.",
+      "Contact our technical team for resin selection, datasheet requests and quotations. Factory at GIDC Vapi, Gujarat — call +91 90167 11708 or email info@toyotachemicals.co.in.",
   },
   "/partners": {
     title: "OEM & Dealer Partners | Toyota Chemical Industries",
@@ -161,17 +167,12 @@ const PAGES = {
   },
 };
 
-// Legacy/SEO alias paths that render the same content as a canonical route.
-// They point their canonical tag at the primary URL and are kept out of the index
-// so the two paths are not treated as duplicate content.
+// Retired paths that still resolve. They render the canonical page's metadata
+// but point the canonical tag at the primary URL and are kept out of the index,
+// so the two paths are never treated as duplicate content.
 const ALIASES = {
-  "/products/cation-exchange-resins": "/products/cationanion",
-  "/products/anion-exchange-resins": "/products/anion",
-  "/products/mixed-bed-resins": "/products/mixedbed",
-  "/products/water-softener-resins": "/products/watersoftener",
-  "/products/specialty-resins": "/products/specialty",
+  ...LEGACY_REDIRECTS,
   "/applications/ultrapure-water": "/applications",
-  "/industries/chemical-intermediates": "/industries/chemical",
 };
 
 export const NOT_FOUND_SEO = {

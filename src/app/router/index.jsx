@@ -1,5 +1,10 @@
 import { Navigate, Route, Routes } from "react-router";
 
+import {
+  INDUSTRY_PATH,
+  LEGACY_REDIRECTS,
+  PRODUCT_PATH,
+} from "../../config/routes";
 import MainLayout from "../../components/layout/MainLayout";
 
 import About from "../../pages/About/About";
@@ -30,13 +35,35 @@ import {
 } from "../../pages/Info/InfoPages";
 import NotFound from "../../pages/NotFound/NotFound";
 import Anion from "../../pages/Products/Anion";
-import Cationanion from "../../pages/Products/Cationanion";
+import Cation from "../../pages/Products/Cationanion";
 import Mixedbed from "../../pages/Products/Mixedbed";
 import Product from "../../pages/Products/Product";
 import Specialty from "../../pages/Products/Specialty";
 import Watersoftener from "../../pages/Products/Watersoftener";
 import QualityCertificate from "../../pages/Quality/QualityCertificate";
 import Servicearea from "../../pages/About/Servicearea";
+
+// One canonical route per logical page. Every path is read from
+// src/config/routes.js, so each URL exists in exactly one place in the code and
+// there is never a second component serving the same logical page. Components
+// are imported here rather than listed in the config to keep the config free of
+// page dependencies.
+const PRODUCT_PAGES = {
+  [PRODUCT_PATH.cation]: <Cation />,
+  [PRODUCT_PATH.anion]: <Anion />,
+  [PRODUCT_PATH.mixedBed]: <Mixedbed />,
+  [PRODUCT_PATH.waterSoftener]: <Watersoftener />,
+  [PRODUCT_PATH.specialty]: <Specialty />,
+};
+
+const INDUSTRY_PAGES = {
+  [INDUSTRY_PATH.chemical]: <ChemicalIndustries />,
+  [INDUSTRY_PATH.foodBeverage]: <FoodBeverage />,
+  [INDUSTRY_PATH.paperPulp]: <PaperPulp />,
+  [INDUSTRY_PATH.powerThermal]: <PowerThermalPlants />,
+  [INDUSTRY_PATH.sugarRefinery]: <SugarProcessing />,
+  [INDUSTRY_PATH.textile]: <TextileDye />,
+};
 
 export default function AppRouter() {
   return (
@@ -49,20 +76,11 @@ export default function AppRouter() {
         <Route path="/service-area" element={<Servicearea />} />
         <Route path="/contact" element={<Contact />} />
 
-        {/* Products hub + categories */}
+        {/* Products hub + canonical category routes */}
         <Route path="/products" element={<Product />} />
-        <Route path="/products/cationanion" element={<Cationanion />} />
-        <Route path="/products/anion" element={<Anion />} />
-        <Route path="/products/mixedbed" element={<Mixedbed />} />
-        <Route path="/products/watersoftener" element={<Watersoftener />} />
-        <Route path="/products/specialty" element={<Specialty />} />
-
-        {/* SEO/legacy product slugs used inside existing page content */}
-        <Route path="/products/cation-exchange-resins" element={<Cationanion />} />
-        <Route path="/products/anion-exchange-resins" element={<Anion />} />
-        <Route path="/products/mixed-bed-resins" element={<Mixedbed />} />
-        <Route path="/products/water-softener-resins" element={<Watersoftener />} />
-        <Route path="/products/specialty-resins" element={<Specialty />} />
+        {Object.entries(PRODUCT_PAGES).map(([path, element]) => (
+          <Route key={path} path={path} element={element} />
+        ))}
 
         {/* Blog */}
         <Route path="/blog" element={<Blog />} />
@@ -90,15 +108,11 @@ export default function AppRouter() {
         />
         <Route path="/applications/ultrapure-water" element={<Applications />} />
 
-        {/* Industries */}
+        {/* Industries hub + canonical industry routes */}
         <Route path="/industries" element={<Industries />} />
-        <Route path="/industries/chemical" element={<ChemicalIndustries />} />
-        <Route path="/industries/chemical-intermediates" element={<ChemicalIndustries />} />
-        <Route path="/industries/food-beverage" element={<FoodBeverage />} />
-        <Route path="/industries/paper" element={<PaperPulp />} />
-        <Route path="/industries/power-thermal" element={<PowerThermalPlants />} />
-        <Route path="/industries/sugar-seo-kit" element={<SugarProcessing />} />
-        <Route path="/industries/textile" element={<TextileDye />} />
+        {Object.entries(INDUSTRY_PAGES).map(([path, element]) => (
+          <Route key={path} path={path} element={element} />
+        ))}
 
         {/* Information pages */}
         <Route path="/partners" element={<Partners />} />
@@ -108,15 +122,21 @@ export default function AppRouter() {
         <Route path="/legal-notice" element={<LegalNotice />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
+        {/* Retired product and industry URLs. These are redirects only — they
+            must never be used as a link target anywhere in the application.
+            The same map drives the Apache rules in public/.htaccess. */}
+        {Object.entries(LEGACY_REDIRECTS).map(([from, to]) => (
+          <Route key={from} path={from} element={<Navigate to={to} replace />} />
+        ))}
+
         {/* Backward-compatible aliases for previously published URLs */}
         <Route path="/product" element={<Navigate to="/products" replace />} />
         <Route path="/Product" element={<Navigate to="/products" replace />} />
-        <Route path="/Product/Cationanion" element={<Navigate to="/products/cationanion" replace />} />
-        <Route path="/products/Cationanion" element={<Navigate to="/products/cationanion" replace />} />
-        <Route path="/Product/Anion" element={<Navigate to="/products/anion" replace />} />
-        <Route path="/Product/Mixedbed" element={<Navigate to="/products/mixedbed" replace />} />
-        <Route path="/Product/Watersoftener" element={<Navigate to="/products/watersoftener" replace />} />
-        <Route path="/Product/Specialty" element={<Navigate to="/products/specialty" replace />} />
+        <Route path="/Product/cation" element={<Navigate to={PRODUCT_PATH.cation} replace />} />
+        <Route path="/Product/Anion" element={<Navigate to={PRODUCT_PATH.anion} replace />} />
+        <Route path="/Product/Mixedbed" element={<Navigate to={PRODUCT_PATH.mixedBed} replace />} />
+        <Route path="/Product/Watersoftener" element={<Navigate to={PRODUCT_PATH.waterSoftener} replace />} />
+        <Route path="/Product/Specialty" element={<Navigate to={PRODUCT_PATH.specialty} replace />} />
         <Route
           path="/applications/boiler-feed-water"
           element={<Navigate to="/applications/boiler-feed-water-treatment" replace />}
@@ -140,20 +160,6 @@ export default function AppRouter() {
         <Route
           path="/applications/water-softener-resign"
           element={<Navigate to="/applications/water-softener-resin" replace />}
-        />
-        <Route path="/industries/textie" element={<Navigate to="/industries/textile" replace />} />
-        <Route path="/industries/paper-pulp" element={<Navigate to="/industries/paper" replace />} />
-        <Route
-          path="/industries/power-thermal-plants"
-          element={<Navigate to="/industries/power-thermal" replace />}
-        />
-        <Route
-          path="/industries/sugar-processing"
-          element={<Navigate to="/industries/sugar-seo-kit" replace />}
-        />
-        <Route
-          path="/industries/textile-dye"
-          element={<Navigate to="/industries/textile" replace />}
         />
         <Route
           path="/oem-dealer-partners"

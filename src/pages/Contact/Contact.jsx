@@ -139,7 +139,7 @@ export default function Contact() {
             {/*ck Reach Callout Str*/}
             <div className="bg-white border border-brand-blueprint p-5 relative corner-brackets shadow-sm max-w-2xl mb-6">
               {/* <div className="text-xs font-mono uppercase text-brand-navy font-semibold tracking-wider mb-3">
-                Prefer to talk? Call +91 260 2432021 or WhatsApp us — details on the right.
+                Prefer to talk? Call +91 90167 11708 or WhatsApp us — details on the right.
               </div> */}
               <div className="flex flex-wrap gap-3">
                 <a className="inline-flex items-center px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-mono font-medium rounded-sm shadow-sm transition-colors" href="https://wa.me/912602432021" rel="noopener" target="_blank">
@@ -148,11 +148,11 @@ export default function Contact() {
                   </svg>
                   WhatsApp Us
                 </a>
-                <a className="inline-flex items-center px-4 py-2 bg-brand-navy hover:bg-brand-blue text-white text-xs font-mono font-medium rounded-sm shadow-sm transition-colors" href="tel:+912602432021">
+                <a className="inline-flex items-center px-4 py-2 bg-brand-navy hover:bg-brand-blue text-white text-xs font-mono font-medium rounded-sm shadow-sm transition-colors" href="tel:+919016711708">
                   <svg className="w-3.5 h-3.5 mr-2 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
                   </svg>
-                  Call +91 260 2432021
+                  Call +91 90167 11708
                 </a>
                 <a className="inline-flex items-center px-4 py-2 bg-white hover:bg-slate-50 text-slate-700 border border-brand-blueprint text-xs font-mono font-medium rounded-sm transition-colors" href="mailto:info@toyotachemicals.co.in">
                   <svg className="w-3.5 h-3.5 mr-2 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -217,9 +217,11 @@ export default function Contact() {
               <span className="text-[11px] font-mono uppercase text-brand-gold tracking-widest font-semibold block mb-1">
                 // TECHNICAL TRANSMISSION CONSOLE
               </span>
-              <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy tracking-tight">
-                Send an enquiry
-              </h2>
+              <a href="mailto:info@toyotachemicals.co.in">
+  <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy tracking-tight">
+    Send an enquiry
+  </h2>
+</a>
               <p className="text-xs sm:text-sm text-slate-500 font-mono mt-2">
                 Fields marked
                 <span className="text-rose-600 font-bold">
@@ -378,8 +380,8 @@ export default function Contact() {
                   <span className="text-slate-400">
                     PHONE:
                   </span>
-                  <a className="text-brand-navy hover:text-brand-blue font-bold" href="tel:+912602432021">
-                    +91 260 2432021
+                  <a className="text-brand-navy hover:text-brand-blue font-bold" href="tel:+919016711708">
+                    +91 90167 11708
                   </a>
                 </div>
                 <div className="flex items-center justify-between">
@@ -723,11 +725,11 @@ export default function Contact() {
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-4 shrink-0">
-          <a className="px-6 py-3 bg-brand-gold hover:bg-brand-goldBorder text-brand-dark text-xs font-mono font-bold uppercase tracking-widest transition-colors shadow-sm" href="#enquiry-console">
+          <a  className="px-6 py-3 bg-brand-gold hover:bg-brand-goldBorder text-brand-dark text-xs font-mono font-bold uppercase tracking-widest transition-colors shadow-sm" href="mailto:info@toyotachemicals.co.in">
             Send an enquiry
           </a>
-          <a className="px-6 py-3 border border-slate-600 hover:border-white text-slate-200 hover:text-white text-xs font-mono font-bold uppercase tracking-widest transition-colors" href="tel:+912602432021">
-            Call +91 260 2432021
+          <a className="px-6 py-3 border border-slate-600 hover:border-white text-slate-200 hover:text-white text-xs font-mono font-bold uppercase tracking-widest transition-colors" href="tel:+919016711708">
+            Call +91 90167 11708
           </a>
         </div>
       </div>

@@ -54,6 +54,7 @@ export function usePageMeta() {
       { attr: "property", key: "og:image", value: seo.ogImage },
       { attr: "property", key: "article:published_time", value: seo.publishedTime },
       { attr: "name", key: "twitter:card", value: "summary_large_image" },
+      { attr: "name", key: "twitter:url", value: canonical },
       { attr: "name", key: "twitter:title", value: seo.title },
       { attr: "name", key: "twitter:description", value: seo.description },
       { attr: "name", key: "twitter:image", value: seo.ogImage },

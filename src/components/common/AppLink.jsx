@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 
 // A path is treated as an application route when it is root-relative and does
-// not point at a static file (e.g. /tds/c-60.pdf must stay a real download).
+// not point at a static file (e.g. /brochures/C60-Na.pdf must stay a real download).
 const FILE_EXTENSION = /\.[a-z0-9]{2,5}$/i;
 
 export function isRouteHref(href) {

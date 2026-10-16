@@ -202,21 +202,21 @@ html,body{width:100%;max-width:100%;margin:0;padding:0;overflow-x:hidden}
         <div className="card2">
           <div className="prob"><span className="tag">The problem</span><h3>Hardness causing uneven dyeing & spotting</h3></div>
           <div className="sol"><span className="tag">The resin</span><p>Sodium-cycle softening removes calcium and magnesium so dye uptake is even and repeatable, cutting reprocessing and dye waste in the dyehouse.</p>
-            <div className="gtags"><Link to="/products/water-softener-resins">Water softener resins</Link><Link className="app" to="/applications/water-softener-resin">Softening</Link><Link to="/products/cation-exchange-resins#c-80">AGRION C-80</Link></div></div>
+            <div className="gtags"><Link to="/products/watersoftenerresins">Water softener resins</Link><Link className="app" to="/applications/water-softener-resin">Softening</Link><Link to="/products/cationexchangeresins#c-80">AGRION C-80</Link></div></div>
         </div>
       </div>
       <div className="step"><div className="num"><b>2</b></div>
         <div className="card2">
           <div className="prob"><span className="tag">The problem</span><h3>Scale in boilers & heat-setting equipment</h3></div>
           <div className="sol"><span className="tag">The resin</span><p>Demineralised boiler feed protects high-pressure boilers and heat-setting equipment from scale and carry-over, keeping steam quality consistent.</p>
-            <div className="gtags"><Link className="app" to="/applications/dm-plant-resin">DM plant</Link><Link to="/products/cation-exchange-resins#c-100-h">AGRION C-100 H</Link><Link to="/products/anion-exchange-resins#a-400">AGRION A-400</Link></div></div>
+            <div className="gtags"><Link className="app" to="/applications/dm-plant-resin">DM plant</Link><Link to="/products/cationexchangeresins#c-100-h">AGRION C-100 H</Link><Link to="/products/anionexchangeresins#a-400">AGRION A-400</Link></div></div>
         </div>
       </div>
       <div className="step"><div className="num"><b>3</b></div>
         <div className="card2">
           <div className="prob"><span className="tag">The problem</span><h3>Colour & organics in dyehouse effluent</h3></div>
           <div className="sol"><span className="tag">The resin</span><p>Macroporous and weak base anion resins help strip residual colour and organics from effluent as part of a treatment or recovery train, supporting discharge compliance.</p>
-            <div className="gtags"><Link to="/products/anion-exchange-resins#a-600-mp">AGRION A-600 MP</Link><Link to="/products/anion-exchange-resins#a-650-mp">AGRION A-650 MP</Link></div></div>
+            <div className="gtags"><Link to="/products/anionexchangeresins#a-600-mp">AGRION A-600 MP</Link><Link to="/products/anionexchangeresins#a-650-mp">AGRION A-650 MP</Link></div></div>
         </div>
       </div>
     </div>
@@ -234,7 +234,7 @@ html,body{width:100%;max-width:100%;margin:0;padding:0;overflow-x:hidden}
       <p>Tell us your water quality and process — we’ll recommend resins for consistent dyeing, boiler feed and effluent, and attach the TDS.</p>
       <Link className="btn btn-green" to="/contact">Send an enquiry</Link>
       <a className="btn btn-wa" href="https://wa.me/919898701010">WhatsApp us</a>
-      <a className="btn btn-wa" href="tel:+912602432021">Call +91 260 2432021</a>
+      <a className="btn btn-wa" href="tel:+919016711708">Call +91 90167 11708</a>
     </aside>
   </div></section>
 
@@ -255,10 +255,10 @@ html,body{width:100%;max-width:100%;margin:0;padding:0;overflow-x:hidden}
     <p className="eyebrow">More sectors</p>
     <h2>Other industries we supply</h2>
     <div className="ind-grid">
-      <Link to="/industries/power-thermal-plants"><b>Power / Thermal Plants</b><span>Boiler feed, DM & condensate polishing</span></Link>
-      <Link to="/industries/sugar-processing"><b>Sugar Processing</b><span>Decolourisation & process water</span></Link>
-      <Link to="/industries/chemical-intermediates"><b>Chemical & Intermediates</b><span>Process, DM & effluent</span></Link>
-      <Link to="/industries/paper-pulp"><b>Paper & Pulp</b><span>Process & boiler water</span></Link>
+      <Link to="/industries/power-thermal-industries"><b>Power / Thermal Plants</b><span>Boiler feed, DM & condensate polishing</span></Link>
+      <Link to="/industries/suger-refinery-industries"><b>Sugar Processing</b><span>Decolourisation & process water</span></Link>
+      <Link to="/industries/chemicalindustries"><b>Chemical & Intermediates</b><span>Process, DM & effluent</span></Link>
+      <Link to="/industries/paper-pulp-industries"><b>Paper & Pulp</b><span>Process & boiler water</span></Link>
       <Link to="/industries"><b>All industries →</b><span>Browse every sector</span></Link>
     </div>
   </div></section>

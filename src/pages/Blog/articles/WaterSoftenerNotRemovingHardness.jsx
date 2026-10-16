@@ -39,13 +39,13 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 <p className="eyebrow">Troubleshooting guide</p>
 <h1>Why your water softener stopped removing hardness</h1>
 <p className="sub">Scale is back, soap won’t lather, and the plant is complaining. Here is how to diagnose a water softener not removing hardness — and how to fix it, fast.</p>
-<div className="cta"><Link className="btn btn-green" to="/contact">Ask our technical team</Link><Link className="btn btn-wa" to="/products/water-softener-resins">Softener resins</Link></div>
+<div className="cta"><Link className="btn btn-green" to="/contact">Ask our technical team</Link><Link className="btn btn-wa" to="/products/watersoftenerresins">Softener resins</Link></div>
 </div></div>
 <div className="applayout">
 <div className="apcontent prose">
 <p className="byline"><span>📅 Updated 2026</span><span>⏱ 8 min read</span><span>🏭 Toyota Chemical Industries</span></p>
 <p>A water softener that has quietly stopped working shows up in familiar ways: scale returning in the boiler and on heater elements, spotting on the product, higher chemical use, and hardness slipping through to places it should never reach. A <b>water softener not removing hardness</b> is one of the most common water-treatment complaints in industry — and, fortunately, one of the most diagnosable. In almost every case the cause is one of a short list, and each has a clear fix. This guide walks through why a water softener stops removing hardness, how to work out which cause is yours, and what to do about it.</p>
-<p>If you are choosing or replacing softening resin rather than troubleshooting, see the <Link to="/products/water-softener-resins">water softener resins</Link> range and the <Link to="/applications/water-softener-resin">water softening application</Link> overview; this guide is for a softener that has already gone wrong.</p>
+<p>If you are choosing or replacing softening resin rather than troubleshooting, see the <Link to="/products/watersoftenerresins">water softener resins</Link> range and the <Link to="/applications/water-softener-resin">water softening application</Link> overview; this guide is for a softener that has already gone wrong.</p>
 <div className="toc">
 <h4>On this page</h4>
 <ol>
@@ -203,7 +203,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 <p>Tell us the symptoms and your feedwater — we’ll help diagnose it and, if needed, confirm the softening grade.</p>
 <Link className="btn btn-green" to="/contact">Send an enquiry</Link>
 <a className="btn btn-wa" href="https://wa.me/919898701010">WhatsApp us</a>
-<a className="btn btn-wa" href="tel:+912602432021">Call +91 260 2432021</a>
+<a className="btn btn-wa" href="tel:+919016711708">Call +91 90167 11708</a>
 </div>
 <div className="box"><h4>Related guides</h4><ul>
 <li><Link to="/blog/how-to-select-cation-resin-dm-plant">Selecting a cation resin</Link></li>
@@ -211,11 +211,11 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 <li><Link to="/blog/dm-plant-resin-replacement-guide">When to replace resin</Link></li>
 </ul></div>
 <div className="box"><h4>Products</h4><ul>
-<li><Link to="/products/water-softener-resins">Water Softener Resins</Link></li>
-<li><Link to="/products/cation-exchange-resins">Cation Exchange Resins</Link></li>
-<li><Link to="/products/anion-exchange-resins">Anion Exchange Resins</Link></li>
-<li><Link to="/products/mixed-bed-resins">Mixed Bed Resins</Link></li>
-<li><Link to="/products/specialty-resins">Specialty Resins</Link></li>
+<li><Link to="/products/watersoftenerresins">Water Softener Resins</Link></li>
+<li><Link to="/products/cationexchangeresins">Cation Exchange Resins</Link></li>
+<li><Link to="/products/anionexchangeresins">Anion Exchange Resins</Link></li>
+<li><Link to="/products/mixedbedexchangeresin">Mixed Bed Resins</Link></li>
+<li><Link to="/products/specialtyresins">Specialty Resins</Link></li>
 </ul></div>
 <div className="box"><h4>Applications</h4><ul>
 <li><Link to="/applications/water-softener-resin">Water Softening</Link></li>
@@ -231,7 +231,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 
 </main>
 
-<div className="sticky"><a className="btn btn-white" href="tel:+912602432021">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
+<div className="sticky"><a className="btn btn-white" href="tel:+919016711708">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
 
 
     </>

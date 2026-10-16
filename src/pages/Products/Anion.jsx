@@ -7,6 +7,7 @@ import softenerCardImage from "../../assets/images/water softner resin.jpg";
 import dmPlantAppImage from "../../assets/images/Dm plant application.jpg";
 import mixedBedAppImage from "../../assets/images/mixed bed condensate polishing.jpg";
 import wastewaterAppImage from "../../assets/images/ETP wastewater.jpg";
+import { tdsHref } from "../../config/tdsDownloads";
 
 const grades = {
   "dm-t1": {
@@ -179,8 +180,8 @@ function Spotlight({ children, className = "", ...props }) {
 //         </div>
 //         <div className="flex items-center gap-4">
 //           <span className="hidden sm:inline text-[#E5A855]">ANION EXCHANGE RESINS</span>
-//           <a className="hover:text-[#E5A855]" href="tel:+912602432021">
-//             +91 260 2432021
+//           <a className="hover:text-[#E5A855]" href="tel:+919016711708">
+//             +91 90167 11708
 //           </a>
 //         </div>
 //       </div>
@@ -206,10 +207,10 @@ function Spotlight({ children, className = "", ...props }) {
 //           <a className="hover:text-[#1868A8]" href="#range-section">Products</a>
 //           <a className="hover:text-[#1868A8]" href="#compare">Technical Center</a>
 //           <a className="hover:text-[#1868A8]" href="#why">Why Choose Us</a>
-//           <a className="hover:text-[#1868A8]" href="#enquiry-form">Contact</a>
+//           <a className="hover:text-[#1868A8]" href="/contact">Contact</a>
 //         </nav>
 
-//         <Button href="#enquiry-form" className="hidden sm:inline-flex px-5 py-2.5">
+//         <Button href="/contact" className="hidden sm:inline-flex px-5 py-2.5">
 //           Request TDS
 //         </Button>
 //       </div>
@@ -439,7 +440,7 @@ function GradeSelector() {
 
           <div className="mt-5 pt-4 border-t border-slate-200/80 flex flex-col sm:flex-row justify-between items-start sm:items-center text-[11px] font-mono text-slate-500 gap-2">
             <span>Indicative match against the specifications on file. For a confirmed equivalent, share your full current TDS with our technical team.</span>
-            <a className="text-[#1868A8] hover:text-[#0A2C4B] underline font-medium" href="#enquiry-form">
+            <a className="text-[#1868A8] hover:text-[#0A2C4B] underline font-medium" href="/contact">
               Technical support →
             </a>
           </div>
@@ -511,10 +512,10 @@ function ProductCard({ grade }) {
           </div>
 
           <div className="pt-3 flex flex-wrap items-center gap-3">
-            <Button href={`/tds/${grade.id}.pdf`} goldButton={gold} className="px-5 py-2.5">
+            <Button href={tdsHref(grade.id)} goldButton={gold} className="px-5 py-2.5">
               Download TDS (PDF)
             </Button>
-            <Button href="#enquiry-form" className="px-5 py-2.5 !bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34]">
+            <Button href="/contact" className="px-5 py-2.5 !bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34]">
               Enquire about {grade.name.replace("AGRION ", "")}
             </Button>
           </div>
@@ -724,14 +725,14 @@ function MainContent() {
                 Send the grade and operating conditions you run today — we’ll confirm the matching AGRION grade and attach its TDS.
               </p>
               <div className="space-y-3">
-                <Button href="#enquiry-form" goldButton className="w-full">Send an enquiry</Button>
+                <Button href="mailto:info@toyotachemicals.co.in" goldButton className="w-full">Send an enquiry</Button>
                 <a href="https://wa.me/919898701010" target="_blank" rel="noopener noreferrer" className="interactive-btn w-full flex items-center justify-center py-2.5 px-4 bg-transparent hover:bg-white/10 text-white text-xs font-semibold uppercase tracking-widest chamfer-tr border border-white/40">
                   WhatsApp us
                 </a>
               </div>
               <div className="mt-6 pt-4 border-t border-slate-700/80 text-center">
                 <span className="text-[10px] font-mono text-slate-400 block mb-1">DIRECT TECHNICAL DESK</span>
-                <a className="text-xs font-mono text-[#E5A855] hover:text-white" href="tel:+912602432021">+91 260 2432021</a>
+                <a className="text-xs font-mono text-[#E5A855] hover:text-white" href="tel:+919016711708">+91 90167 11708</a>
               </div>
             </Spotlight>
 
@@ -762,10 +763,10 @@ function MainContent() {
               </h4>
               <ul className="text-xs font-medium space-y-2.5 text-slate-700">
                 {[
-                  { item: "Cation Exchange Resins", href: "/products/cation-exchange-resins", image: cationCardImage },
-                  { item: "Mixed Bed Resins", href: "/products/mixed-bed-resins", image: mixedBedCardImage },
-                  { item: "Water Softener Resins", href: "/products/water-softener-resins", image: softenerCardImage },
-                  { item: "Specialty Resins", href: "/products/specialty-resins", image: anionCardImage },
+                  { item: "Cation Exchange Resins", href: "/products/cationexchangeresins", image: cationCardImage },
+                  { item: "Mixed Bed Resins", href: "/products/mixedbedexchangeresin", image: mixedBedCardImage },
+                  { item: "Water Softener Resins", href: "/products/watersoftenerresins", image: softenerCardImage },
+                  { item: "Specialty Resins", href: "/products/specialtyresins", image: anionCardImage },
                 ].map(({ item, href, image }) => (
                   <li key={item}>
                     <a className="hover:text-[#1868A8] flex items-center gap-3 py-1" href={href}>
@@ -871,7 +872,7 @@ function MainContent() {
 //                 <p>Plot 106/1, GIDC Industrial Estate, Vapi-Silvassa Road, Vapi, Gujarat 396195, India</p>
 //                 <p className="pt-1 font-mono">
 //                   <span className="block text-slate-500 text-[10px]">PHONE:</span>
-//                   <a className="hover:text-[#B27B34] text-slate-300 font-semibold" href="tel:+912602432021">+91 260 2432021</a>
+//                   <a className="hover:text-[#B27B34] text-slate-300 font-semibold" href="tel:+919016711708">+91 90167 11708</a>
 //                 </p>
 //                 <p className="font-mono">
 //                   <span className="block text-slate-500 text-[10px]">INQUIRIES:</span>

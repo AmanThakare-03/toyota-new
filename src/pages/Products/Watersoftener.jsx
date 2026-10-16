@@ -8,6 +8,7 @@ import softenerCardImage from "../../assets/images/water softner resin.jpg";
 import waterSofteningAppImage from "../../assets/images/water softning.jpg";
 import boilerAppImage from "../../assets/images/bolier feed water.jpg";
 import dmPlantAppImage from "../../assets/images/Dm plant application.jpg";
+import { tdsHref } from "../../config/tdsDownloads";
 
 const grades = {
   std: {
@@ -166,8 +167,8 @@ function Spotlight({ children, className = "", ...props }) {
 //           <span className="hidden sm:inline text-[#E5A855]">
 //             WATER SOFTENER RESINS
 //           </span>
-//           <a className="hover:text-[#E5A855]" href="tel:+912602432021">
-//             +91 260 2432021
+//           <a className="hover:text-[#E5A855]" href="tel:+919016711708">
+//             +91 90167 11708
 //           </a>
 //         </div>
 //       </div>
@@ -195,10 +196,10 @@ function Spotlight({ children, className = "", ...props }) {
 //           <a className="hover:text-[#1868A8]" href="#range-section">Products</a>
 //           <a className="hover:text-[#1868A8]" href="#compare">Technical Center</a>
 //           <a className="hover:text-[#1868A8]" href="#why">Why Choose Us</a>
-//           <a className="hover:text-[#1868A8]" href="#enquiry-form">Contact</a>
+//           <a className="hover:text-[#1868A8]" href="/contact">Contact</a>
 //         </nav>
 
-//         <Button href="#enquiry-form" className="hidden sm:inline-flex px-5 py-2.5">
+//         <Button href="/contact" className="hidden sm:inline-flex px-5 py-2.5">
 //           Request TDS
 //         </Button>
 //       </div>
@@ -423,7 +424,7 @@ function GradeSelector() {
             <span>
               Indicative match against the specifications on file. For a confirmed equivalent, share your full current TDS with our technical team.
             </span>
-            <a className="text-[#1868A8] hover:text-[#0A2C4B] underline font-medium" href="#enquiry-form">
+            <a className="text-[#1868A8] hover:text-[#0A2C4B] underline font-medium" href="/contact">
               Technical support →
             </a>
           </div>
@@ -553,7 +554,7 @@ function ProductCard({ grade }) {
 
           <div className="pt-3 flex flex-wrap items-center gap-3">
             <Button
-              href={`/tds/${grade.id}.pdf`}
+              href={tdsHref(grade.id)}
               goldButton={gold}
               className="px-5 py-2.5"
             >
@@ -561,7 +562,7 @@ function ProductCard({ grade }) {
             </Button>
 
             <Button
-              href="#enquiry-form"
+              href="/contact"
               className="px-5 py-2.5 !bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34]"
             >
               Enquire about {grade.name.replace("AGRION ", "")}
@@ -696,7 +697,7 @@ function MainContent() {
                 When a softener no longer softens, the resin is usually fouled, degraded or simply at the end of its life — a change to a fresh softener grade restores capacity.
               </p>
               <a
-                href="#enquiry-form"
+                href="/contact"
                 className="inline-block mt-3 text-xs font-semibold text-[#1868A8] hover:text-[#0A2C4B] underline"
               >
                 Tell us your symptoms →
@@ -910,7 +911,7 @@ function MainContent() {
               </p>
 
               <div className="space-y-3">
-                <Button href="#enquiry-form" goldButton className="w-full">
+                <Button href="mailto:info@toyotachemicals.co.in" goldButton className="w-full">
                   Send an enquiry
                 </Button>
 
@@ -930,9 +931,9 @@ function MainContent() {
                 </span>
                 <a
                   className="text-xs font-mono text-[#E5A855] hover:text-white"
-                  href="tel:+912602432021"
+                  href="tel:+919016711708"
                 >
-                  +91 260 2432021
+                  +91 90167 11708
                 </a>
               </div>
             </Spotlight>
@@ -975,10 +976,10 @@ function MainContent() {
 
               <ul className="text-xs font-medium space-y-2.5 text-slate-700">
                 {[
-                  { item: "Cation Exchange Resins", href: "/products/cation-exchange-resins", image: cationCardImage },
-                  { item: "Anion Exchange Resins", href: "/products/anion-exchange-resins", image: anionCardImage },
-                  { item: "Mixed Bed Resins", href: "/products/mixed-bed-resins", image: mixedBedCardImage },
-                  { item: "Specialty Resins", href: "/products/specialty-resins", image: specialtyCardImage },
+                  { item: "Cation Exchange Resins", href: "/products/cationexchangeresins", image: cationCardImage },
+                  { item: "Anion Exchange Resins", href: "/products/anionexchangeresins", image: anionCardImage },
+                  { item: "Mixed Bed Resins", href: "/products/mixedbedexchangeresin", image: mixedBedCardImage },
+                  { item: "Specialty Resins", href: "/products/specialtyresins", image: specialtyCardImage },
                 ].map(({ item, href, image }) => (
                   <li key={item}>
                     <a className="hover:text-[#1868A8] flex items-center gap-3 py-1" href={href}>
@@ -1149,11 +1150,11 @@ function MainContent() {
 //             <FooterColumn
 //               title="Products"
 //               items={[
-//                 ["Cation Exchange Resins", "/products/cation-exchange-resins"],
-//                 ["Anion Exchange Resins", "/products/anion-exchange-resins"],
-//                 ["Mixed Bed Resins", "/products/mixed-bed-resins"],
-//                 ["Water Softener Resins", "/products/water-softener-resins"],
-//                 ["Specialty Resins", "/products/specialty-resins"],
+//                 ["Cation Exchange Resins", "/products/cationexchangeresins"],
+//                 ["Anion Exchange Resins", "/products/anionexchangeresins"],
+//                 ["Mixed Bed Resins", "/products/mixedbedexchangeresin"],
+//                 ["Water Softener Resins", "/products/watersoftenerresins"],
+//                 ["Specialty Resins", "/products/specialtyresins"],
 //               ]}
 //             />
 
@@ -1175,9 +1176,9 @@ function MainContent() {
 //                   <span className="block text-slate-500 text-[10px]">PHONE:</span>
 //                   <a
 //                     className="hover:text-[#B27B34] text-slate-300 font-semibold"
-//                     href="tel:+912602432021"
+//                     href="tel:+919016711708"
 //                   >
-//                     +91 260 2432021
+//                     +91 90167 11708
 //                   </a>
 //                 </p>
 

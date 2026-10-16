@@ -38,7 +38,7 @@
 // <p className="eyebrow">Selection guide</p>
 // <h1>How to select the right cation resin for your DM plant</h1>
 // <p className="sub">The cation stage sets the tone for the whole demineraliser. Here is how to match a strong acid cation resin to your feedwater, duty and outlet spec — without over-buying or under-specifying.</p>
-// <div className="cta"><Link className="btn btn-green" to="/contact">Ask our technical team</Link><Link className="btn btn-wa" to="/products/cation-exchange-resins">See cation grades</Link></div>
+// <div className="cta"><Link className="btn btn-green" to="/contact">Ask our technical team</Link><Link className="btn btn-wa" to="/products/cationexchangeresins">See cation grades</Link></div>
 // </div></div>
 // {/* MAIN: content + sticky right sidebar */}
 // <div className="applayout">
@@ -125,7 +125,7 @@
 // <tr><td>Heavy-metal removal, condensate polishing or ZLD (macroporous)</td><td>AGRION C-100 MP</td></tr>
 // <tr><td>Standard water softening (sodium form)</td><td>AGRION C-60 / C-80</td></tr>
 // </tbody></table></div>
-// <p>For the great majority of two-bed demineralisers, AGRION C-100 H is the cation resin for DM plant service you will specify, paired with a Type 1 strong base anion such as AGRION A-400 and, where high purity is needed, an AGRION MB-1151 mixed bed for polishing. See the full range and each grade’s key data on the <Link to="/products/cation-exchange-resins">cation exchange resins</Link> page, the anion side on the <Link to="/products/anion-exchange-resins">anion exchange resins</Link> page, and how the whole train fits together on the <Link to="/applications/dm-plant-resin">DM plant</Link> application page.</p>
+// <p>For the great majority of two-bed demineralisers, AGRION C-100 H is the cation resin for DM plant service you will specify, paired with a Type 1 strong base anion such as AGRION A-400 and, where high purity is needed, an AGRION MB-1151 mixed bed for polishing. See the full range and each grade’s key data on the <Link to="/products/cationexchangeresins">cation exchange resins</Link> page, the anion side on the <Link to="/products/anionexchangeresins">anion exchange resins</Link> page, and how the whole train fits together on the <Link to="/applications/dm-plant-resin">DM plant</Link> application page.</p>
 // <div className="imgph">
 // <div className="ic">📷</div>
 // <div className="meta">
@@ -196,7 +196,7 @@
 // <p>Share your feedwater and outlet spec — we’ll recommend the cation grade and attach the TDS.</p>
 // <Link className="btn btn-green" to="/contact">Send an enquiry</Link>
 // <a className="btn btn-wa" href="https://wa.me/919898701010">WhatsApp us</a>
-// <a className="btn btn-wa" href="tel:+912602432021">Call +91 260 2432021</a>
+// <a className="btn btn-wa" href="tel:+919016711708">Call +91 90167 11708</a>
 // </div>
 // <div className="box"><h4>Related guides</h4><ul>
 // <li><Link to="/blog/resin-specifications-explained">Exchange capacity, bead size &amp; sieve analysis</Link></li>
@@ -204,11 +204,11 @@
 // <li><Link to="/blog/dm-plant-resin-replacement-guide">When to replace DM plant resin</Link></li>
 // </ul></div>
 // <div className="box"><h4>Products</h4><ul>
-// <li><Link to="/products/cation-exchange-resins">Cation Exchange Resins</Link></li>
-// <li><Link to="/products/anion-exchange-resins">Anion Exchange Resins</Link></li>
-// <li><Link to="/products/mixed-bed-resins">Mixed Bed Resins</Link></li>
-// <li><Link to="/products/water-softener-resins">Water Softener Resins</Link></li>
-// <li><Link to="/products/specialty-resins">Specialty Resins</Link></li>
+// <li><Link to="/products/cationexchangeresins">Cation Exchange Resins</Link></li>
+// <li><Link to="/products/anionexchangeresins">Anion Exchange Resins</Link></li>
+// <li><Link to="/products/mixedbedexchangeresin">Mixed Bed Resins</Link></li>
+// <li><Link to="/products/watersoftenerresins">Water Softener Resins</Link></li>
+// <li><Link to="/products/specialtyresins">Specialty Resins</Link></li>
 // </ul></div>
 // <div className="box"><h4>Applications</h4><ul>
 // <li><Link to="/applications/dm-plant-resin">DM Plant / Demineralisation</Link></li>
@@ -225,7 +225,7 @@
 
 // </main>
 
-// <div className="sticky"><a className="btn btn-white" href="tel:+912602432021">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
+// <div className="sticky"><a className="btn btn-white" href="tel:+919016711708">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
 
 
 //     </>
@@ -313,7 +313,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 
 <p className="sub">The cation stage sets the tone for the whole demineraliser. Here is how to match a strong acid cation resin to your feedwater, duty and outlet spec — without over-buying or under-specifying.</p>
 
-<div className="cta"><Link className="btn btn-green" to="/contact">Ask our technical team</Link><Link className="btn btn-wa" to="/products/cation-exchange-resins">See cation grades</Link></div>
+<div className="cta"><Link className="btn btn-green" to="/contact">Ask our technical team</Link><Link className="btn btn-wa" to="/products/cationexchangeresins">See cation grades</Link></div>
 
 </div></div>
 
@@ -471,7 +471,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 
 </tbody></table></div>
 
-<p>For the great majority of two-bed demineralisers, AGRION C-100 H is the cation resin for DM plant service you will specify, paired with a Type 1 strong base anion such as AGRION A-400 and, where high purity is needed, an AGRION MB-1151 mixed bed for polishing. See the full range and each grade’s key data on the <Link to="/products/cation-exchange-resins">cation exchange resins</Link> page, the anion side on the <Link to="/products/anion-exchange-resins">anion exchange resins</Link> page, and how the whole train fits together on the <Link to="/applications/dm-plant-resin">DM plant</Link> application page.</p>
+<p>For the great majority of two-bed demineralisers, AGRION C-100 H is the cation resin for DM plant service you will specify, paired with a Type 1 strong base anion such as AGRION A-400 and, where high purity is needed, an AGRION MB-1151 mixed bed for polishing. See the full range and each grade’s key data on the <Link to="/products/cationexchangeresins">cation exchange resins</Link> page, the anion side on the <Link to="/products/anionexchangeresins">anion exchange resins</Link> page, and how the whole train fits together on the <Link to="/applications/dm-plant-resin">DM plant</Link> application page.</p>
 
 <div className="imgph">
   <img
@@ -603,7 +603,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 
 <a className="btn btn-wa" href="https://wa.me/919898701010">WhatsApp us</a>
 
-<a className="btn btn-wa" href="tel:+912602432021">Call +91 260 2432021</a>
+<a className="btn btn-wa" href="tel:+919016711708">Call +91 90167 11708</a>
 
 </div>
 
@@ -619,15 +619,15 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 
 <div className="box"><h4>Products</h4><ul>
 
-<li><Link to="/products/cation-exchange-resins">Cation Exchange Resins</Link></li>
+<li><Link to="/products/cationexchangeresins">Cation Exchange Resins</Link></li>
 
-<li><Link to="/products/anion-exchange-resins">Anion Exchange Resins</Link></li>
+<li><Link to="/products/anionexchangeresins">Anion Exchange Resins</Link></li>
 
-<li><Link to="/products/mixed-bed-resins">Mixed Bed Resins</Link></li>
+<li><Link to="/products/mixedbedexchangeresin">Mixed Bed Resins</Link></li>
 
-<li><Link to="/products/water-softener-resins">Water Softener Resins</Link></li>
+<li><Link to="/products/watersoftenerresins">Water Softener Resins</Link></li>
 
-<li><Link to="/products/specialty-resins">Specialty Resins</Link></li>
+<li><Link to="/products/specialtyresins">Specialty Resins</Link></li>
 
 </ul></div>
 
@@ -661,7 +661,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 
 
 
-<div className="sticky"><a className="btn btn-white" href="tel:+912602432021">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
+<div className="sticky"><a className="btn btn-white" href="tel:+919016711708">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
 
 
 

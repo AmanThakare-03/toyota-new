@@ -199,28 +199,28 @@ html,body{width:100%;max-width:100%;margin:0;padding:0;overflow-x:hidden}
         <div className="card2">
           <div className="prob"><span className="tag">The problem</span><h3>Hardness in process & utility water</h3></div>
           <div className="sol"><span className="tag">The resin</span><p>Sodium-cycle softening removes calcium and magnesium from process and utility water, preventing scale and giving a consistent base for downstream treatment.</p>
-            <div className="gtags"><Link to="/products/water-softener-resins">Water softener resins</Link><Link className="app" to="/applications/water-softener-resin">Softening</Link><Link to="/products/cation-exchange-resins#c-80">AGRION C-80</Link></div></div>
+            <div className="gtags"><Link to="/products/watersoftenerresins">Water softener resins</Link><Link className="app" to="/applications/water-softener-resin">Softening</Link><Link to="/products/cationexchangeresins#c-80">AGRION C-80</Link></div></div>
         </div>
       </div>
       <div className="step"><div className="num"><b>2</b></div>
         <div className="card2">
           <div className="prob"><span className="tag">The problem</span><h3>Dissolved ions in beverage & process water</h3></div>
           <div className="sol"><span className="tag">The resin</span><p>Two-bed demineralisation strips dissolved salts to deliver low-conductivity water for beverage make-up, steam and process duty.</p>
-            <div className="gtags"><Link className="app" to="/applications/dm-plant-resin">DM plant</Link><Link to="/products/cation-exchange-resins#c-100-h">AGRION C-100 H</Link><Link to="/products/anion-exchange-resins#a-400">AGRION A-400</Link></div></div>
+            <div className="gtags"><Link className="app" to="/applications/dm-plant-resin">DM plant</Link><Link to="/products/cationexchangeresins#c-100-h">AGRION C-100 H</Link><Link to="/products/anionexchangeresins#a-400">AGRION A-400</Link></div></div>
         </div>
       </div>
       <div className="step"><div className="num"><b>3</b></div>
         <div className="card2">
           <div className="prob"><span className="tag">The problem</span><h3>Colour in sweeteners & juices</h3></div>
           <div className="sol"><span className="tag">The resin</span><p>Macroporous and weak base anion resins remove colour and organics from sweetener syrups and juices, improving product appearance and consistency.</p>
-            <div className="gtags"><Link to="/products/anion-exchange-resins#a-600-mp">AGRION A-600 MP</Link><Link to="/products/anion-exchange-resins#a-650-mp">AGRION A-650 MP</Link></div></div>
+            <div className="gtags"><Link to="/products/anionexchangeresins#a-600-mp">AGRION A-600 MP</Link><Link to="/products/anionexchangeresins#a-650-mp">AGRION A-650 MP</Link></div></div>
         </div>
       </div>
       <div className="step"><div className="num"><b>4</b></div>
         <div className="card2">
           <div className="prob"><span className="tag">The problem</span><h3>Final polishing to high-purity water</h3></div>
           <div className="sol"><span className="tag">The resin</span><p>A mixed bed polishes demineralised water to very low conductivity where the product or process demands high purity.</p>
-            <div className="gtags"><Link to="/products/mixed-bed-resins">Mixed bed resins</Link><Link to="/products/mixed-bed-resins#mb-1151">AGRION MB-1151</Link></div></div>
+            <div className="gtags"><Link to="/products/mixedbedexchangeresin">Mixed bed resins</Link><Link to="/products/mixedbedexchangeresin#mb-1151">AGRION MB-1151</Link></div></div>
         </div>
       </div>
     </div>
@@ -238,7 +238,7 @@ html,body{width:100%;max-width:100%;margin:0;padding:0;overflow-x:hidden}
       <p>Tell us your product, water analysis and any food-grade requirement — we’ll recommend the resins and confirm suitability with the TDS.</p>
       <Link className="btn btn-green" to="/contact">Send an enquiry</Link>
       <a className="btn btn-wa" href="https://wa.me/919898701010">WhatsApp us</a>
-      <a className="btn btn-wa" href="tel:+912602432021">Call +91 260 2432021</a>
+      <a className="btn btn-wa" href="tel:+919016711708">Call +91 90167 11708</a>
     </aside>
   </div></section>
 
@@ -259,10 +259,10 @@ html,body{width:100%;max-width:100%;margin:0;padding:0;overflow-x:hidden}
     <p className="eyebrow">More sectors</p>
     <h2>Other industries we supply</h2>
     <div className="ind-grid">
-      <Link to="/industries/power-thermal-plants"><b>Power / Thermal Plants</b><span>Boiler feed, DM & condensate polishing</span></Link>
-      <Link to="/industries/sugar-processing"><b>Sugar Processing</b><span>Decolourisation & process water</span></Link>
-      <Link to="/industries/textile-dye"><b>Textile & Dye</b><span>Softening & boiler feed</span></Link>
-      <Link to="/industries/chemical-intermediates"><b>Chemical & Intermediates</b><span>Process, DM & effluent</span></Link>
+      <Link to="/industries/power-thermal-industries"><b>Power / Thermal Plants</b><span>Boiler feed, DM & condensate polishing</span></Link>
+      <Link to="/industries/suger-refinery-industries"><b>Sugar Processing</b><span>Decolourisation & process water</span></Link>
+      <Link to="/industries/textile-industries"><b>Textile & Dye</b><span>Softening & boiler feed</span></Link>
+      <Link to="/industries/chemicalindustries"><b>Chemical & Intermediates</b><span>Process, DM & effluent</span></Link>
       <Link to="/industries"><b>All industries →</b><span>Browse every sector</span></Link>
     </div>
   </div></section>

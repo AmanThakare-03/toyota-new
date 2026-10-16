@@ -118,8 +118,8 @@ function Spotlight({ children, className = "", ...props }) {
 
 //         <div className="flex items-center gap-4">
 //           <span className="hidden sm:inline text-[#E5A855]">MIXED BED RESINS</span>
-//           <a className="hover:text-[#E5A855]" href="tel:+912602432021">
-//             +91 260 2432021
+//           <a className="hover:text-[#E5A855]" href="tel:+919016711708">
+//             +91 90167 11708
 //           </a>
 //         </div>
 //       </div>
@@ -148,10 +148,10 @@ function Spotlight({ children, className = "", ...props }) {
 //           <a className="hover:text-[#1868A8]" href="#range-section">Products</a>
 //           <a className="hover:text-[#1868A8]" href="#compare">Technical Center</a>
 //           <a className="hover:text-[#1868A8]" href="#why">Why Choose Us</a>
-//           <a className="hover:text-[#1868A8]" href="#enquiry-form">Contact</a>
+//           <a className="hover:text-[#1868A8]" href="/contact">Contact</a>
 //         </nav>
 
-//         <Button href="#enquiry-form" className="hidden sm:inline-flex px-5 py-2.5">
+//         <Button href="/contact" className="hidden sm:inline-flex px-5 py-2.5">
 //           Discuss Requirement
 //         </Button>
 //       </div>
@@ -420,12 +420,12 @@ function ProductCard() {
           </div>
 
           <div className="pt-3 flex flex-wrap items-center gap-3">
-            <Button href="#enquiry-form" goldButton className="px-5 py-2.5">
+            <Button href="/contact" goldButton className="px-5 py-2.5">
               Enquire About MB-1151
             </Button>
 
             <Button
-              href="#enquiry-form"
+              href="/contact"
               className="px-5 py-2.5 !bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34]"
             >
               Request TDS
@@ -536,7 +536,7 @@ function MainContent() {
                   Strong acid cation · H⁺ form — removes cations such as calcium, magnesium and sodium.
                 </p>
                 <a
-                  href="#enquiry-form"
+                  href="/contact"
                   className="inline-block mt-4 text-xs font-mono font-bold text-[#1868A8] hover:text-[#B27B34]"
                 >
                   View cation grade →
@@ -554,7 +554,7 @@ function MainContent() {
                   Type 1 strong base anion · OH⁻ form — removes anions and silica.
                 </p>
                 <a
-                  href="#enquiry-form"
+                  href="/contact"
                   className="inline-block mt-4 text-xs font-mono font-bold text-[#1868A8] hover:text-[#B27B34]"
                 >
                   View anion grade →
@@ -778,7 +778,7 @@ function MainContent() {
               </p>
 
               <div className="space-y-3">
-                <Button href="#enquiry-form" goldButton className="w-full">
+                <Button href="mailto:info@toyotachemicals.co.in" goldButton className="w-full">
                   Send an enquiry
                 </Button>
 
@@ -798,9 +798,9 @@ function MainContent() {
                 </span>
                 <a
                   className="text-xs font-mono text-[#E5A855] hover:text-white"
-                  href="tel:+912602432021"
+                  href="tel:+919016711708"
                 >
-                  +91 260 2432021
+                  +91 90167 11708
                 </a>
               </div>
             </Spotlight>
@@ -843,10 +843,10 @@ function MainContent() {
 
               <ul className="text-xs font-medium space-y-2.5 text-slate-700">
                 {[
-                  { item: "Cation Exchange Resins", href: "/products/cation-exchange-resins", image: cationCardImage },
-                  { item: "Anion Exchange Resins", href: "/products/anion-exchange-resins", image: anionCardImage },
-                  { item: "Water Softener Resins", href: "/products/water-softener-resins", image: specialtyCardImage },
-                  { item: "Specialty Resins", href: "/products/specialty-resins", image: mixedBedCardImage },
+                  { item: "Cation Exchange Resins", href: "/products/cationexchangeresins", image: cationCardImage },
+                  { item: "Anion Exchange Resins", href: "/products/anionexchangeresins", image: anionCardImage },
+                  { item: "Water Softener Resins", href: "/products/watersoftenerresins", image: specialtyCardImage },
+                  { item: "Specialty Resins", href: "/products/specialtyresins", image: mixedBedCardImage },
                 ].map(({ item, href, image }) => (
                   <li key={item}>
                     <a className="hover:text-[#1868A8] flex items-center gap-3 py-1" href={href}>
@@ -1030,9 +1030,9 @@ function MainContent() {
                   <span className="block text-slate-500 text-[10px]">PHONE:</span>
                   <a
                     className="hover:text-[#B27B34] text-slate-300 font-semibold"
-                    href="tel:+912602432021"
+                    href="tel:+919016711708"
                   >
-                    +91 260 2432021
+                    +91 90167 11708
                   </a>
                 </p>
 
@@ -1072,7 +1072,7 @@ function MainContent() {
           Find Resin
         </a>
         <a
-          href="tel:+912602432021"
+          href="tel:+919016711708"
           className="flex-1 bg-[#B27B34] text-white text-center py-3 text-[10px] font-mono font-bold tracking-widest uppercase chamfer-tr"
         >
           Call

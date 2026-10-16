@@ -324,10 +324,10 @@ function AboutUs() {
                     </span>
 
                     <a
-                      href="tel:+912602432021"
+                      href="tel:+919016711708"
                       className="font-bold text-[#0A2C4B] hover:text-[#1868A8]"
                     >
-                      +91 260 2432021 →
+                      +91 90167 11708 →
                     </a>
                   </div>
 
@@ -707,10 +707,10 @@ function AboutUs() {
                 </a>
 
                 <a
-                  href="tel:+912602432021"
+                  href="tel:+919016711708"
                   className="px-6 py-3 border border-white/30 hover:border-white font-mono-custom font-semibold text-xs tracking-wider transition-colors"
                 >
-                  CALL +91 260 2432021
+                  CALL +91 90167 11708
                 </a>
 
               </div>

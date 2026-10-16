@@ -11,6 +11,7 @@ import specialtyCardImage from "../../assets/images/speciality resin.jpg";
 import dmPlantAppImage from "../../assets/images/Dm plant application.jpg";
 import waterSofteningAppImage from "../../assets/images/water softning.jpg";
 import dealkalisationAppImage from "../../assets/images/dealkalisation-resin.jpg";
+import { TDS_REQUEST_HREF, tdsHref } from "../../config/tdsDownloads";
 
 
 const gradeFinder = {
@@ -71,7 +72,7 @@ function Hero() {
   return (
     <section className="relative bg-white border-b border-[#0A2C4B]/10 overflow-hidden pt-10 pb-20 blueprint-pattern">
       <div className="absolute top-6 right-8 pointer-events-none text-right font-mono text-[10px] text-slate-300 hidden lg:block tracking-widest">
-        <div>SPEC_DOC // CATION-EXCHANGE-RESINS</div>
+        <div>SPEC_DOC // cation</div>
         <div>VAPI · GUJARAT · INDIA</div>
       </div>
 
@@ -299,7 +300,7 @@ function MainContent() {
                 </div>
               </div>
               <div className="flex flex-wrap gap-3 mt-5">
-                <Button href="/tds/c-60.pdf" className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
+                <Button href={tdsHref("c-60")} className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
                   Download TDS (PDF)
                 </Button>
                 <Button href="/contact?grade=c-60" goldButton className="px-4 py-2.5">
@@ -328,7 +329,7 @@ function MainContent() {
                 </div>
               </div>
               <div className="flex flex-wrap gap-3 mt-5">
-                <Button href="/tds/c-80.pdf" className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
+                <Button href={tdsHref("c-80")} className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
                   Download TDS (PDF)
                 </Button>
                 <Button href="/contact?grade=c-80" goldButton className="px-4 py-2.5">
@@ -357,7 +358,7 @@ function MainContent() {
                 </div>
               </div>
               <div className="flex flex-wrap gap-3 mt-5">
-                <Button href="/tds/c-100-h.pdf" className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
+                <Button href={tdsHref("c-100-h")} className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
                   Download TDS (PDF)
                 </Button>
                 <Button href="/contact?grade=c-100-h" goldButton className="px-4 py-2.5">
@@ -386,8 +387,8 @@ function MainContent() {
                 </div>
               </div>
               <div className="flex flex-wrap gap-3 mt-5">
-                <Button href="/tds/wc-50.pdf" className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
-                  Download TDS (PDF)
+                <Button href={TDS_REQUEST_HREF} className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
+                  Request TDS
                 </Button>
                 <Button href="/contact?grade=wc-50" goldButton className="px-4 py-2.5">
                   Enquire about WC-50
@@ -415,7 +416,7 @@ function MainContent() {
                 </div>
               </div>
               <div className="flex flex-wrap gap-3 mt-5">
-                <Button href="/tds/c-100-mp.pdf" className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
+                <Button href={tdsHref("c-100-mp")} className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
                   Download TDS (PDF)
                 </Button>
                 <Button href="/contact?grade=c-100-mp" goldButton className="px-4 py-2.5">
@@ -444,7 +445,7 @@ function MainContent() {
                 </div>
               </div>
               <div className="flex flex-wrap gap-3 mt-5">
-                <Button href="/tds/c-100-na.pdf" className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
+                <Button href={tdsHref("c-100-na")} className="!bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34] px-4 py-2.5">
                   Download TDS (PDF)
                 </Button>
                 <Button href="/contact?grade=c-100-na" goldButton className="px-4 py-2.5">
@@ -634,12 +635,12 @@ function MainContent() {
               <h3 className="font-serif text-2xl font-bold mb-2 text-white">Confirm your cation grade for your plant</h3>
               <p className="text-xs text-slate-300 leading-relaxed mb-6 font-light">Send the grade and operating conditions you run today — we’ll confirm the matching AGRION grade and attach its TDS.</p>
               <div className="space-y-3">
-                <Button href="#enquiry-form" goldButton className="w-full">Send an enquiry</Button>
+                <Button href="mailto:info@toyotachemicals.co.in" goldButton className="w-full">Send an enquiry</Button>
                 <a href="https://wa.me/919898701010" target="_blank" rel="noopener noreferrer" className="interactive-btn w-full flex items-center justify-center py-2.5 px-4 bg-transparent hover:bg-white/10 text-white text-xs font-semibold uppercase tracking-widest chamfer-tr border border-white/40">WhatsApp us</a>
               </div>
               <div className="mt-6 pt-4 border-t border-slate-700/80 text-center">
                 <span className="text-[10px] font-mono text-slate-400 block mb-1">DIRECT TECHNICAL DESK</span>
-                <a className="text-xs font-mono text-[#E5A855] hover:text-white" href="tel:+912602432021">+91 260 2432021</a>
+                <a className="text-xs font-mono text-[#E5A855] hover:text-white" href="tel:+919016711708">+91 90167 11708</a>
               </div>
             </Spotlight>
 
@@ -668,10 +669,10 @@ function MainContent() {
               <div className="text-xs font-mono uppercase tracking-widest text-[#B27B34] font-bold mb-3">Related products</div>
               <ul className="space-y-2.5 text-xs text-slate-600">
                 {[
-                  { item: "Anion Exchange Resins", path: "/products/anion", image: anionCardImage },
-                  { item: "Mixed Bed Resins", path: "/products/mixedbed", image: mixedBedCardImage },
-                  { item: "Water Softener Resins", path: "/products/watersoftener", image: softenerCardImage },
-                  { item: "Specialty Resins", path: "/products/specialty", image: specialtyCardImage },
+                  { item: "Anion Exchange Resins", path: "/products/anionexchangeresins", image: anionCardImage },
+                  { item: "Mixed Bed Resins", path: "/products/mixedbedexchangeresin", image: mixedBedCardImage },
+                  { item: "Water Softener Resins", path: "/products/watersoftenerresins", image: softenerCardImage },
+                  { item: "Specialty Resins", path: "/products/specialtyresins", image: specialtyCardImage },
                 ].map(({ item, path, image }) => <li key={item} className="border-b border-slate-100 pb-2"><Link className="group flex items-center gap-3 hover:text-[#B27B34]" to={path}><img src={image} alt={item} className="h-12 w-12 object-cover border border-slate-200 shrink-0" /><span>{item} →</span></Link></li>)}
               </ul>
             </Spotlight>
@@ -713,7 +714,7 @@ function EnquiryBand() {
         </div>
         <div className="flex flex-wrap gap-3">
           <Button href="mailto:info@toyotachemicals.co.in" goldButton>Request a TDS</Button>
-          <Button href="tel:+912602432021" className="!bg-transparent !border-white/30">Call technical desk</Button>
+          <Button href="tel:+919016711708" className="!bg-transparent !border-white/30">Call technical desk</Button>
         </div>
       </div>
     </section>

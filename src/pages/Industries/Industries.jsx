@@ -348,42 +348,42 @@ export default function Industries() {
       <p className="lead">Each page answers one industry&rsquo;s water problems completely &mdash; and points to the exact AGRION resins.</p>
     </div>
     <div className="isec-grid">
-      <Link className="isec image-card" to="/industries/power-thermal-plants">
+      <Link className="isec image-card" to="/industries/power-thermal-industries">
         <img className="card-bg" src="https://images.unsplash.com/photo-1773517459626-f468797f22cc?auto=format&fit=crop&w=1200&q=80" alt="Power and thermal plant industrial machinery" loading="lazy" />
         <span className="k">Boiler feed · DM · condensate</span>
         <b>Power / Thermal Plants</b>
         <span className="d">Boiler feed softening, demineralisation, dealkalisation and condensate polishing.</span>
         <span className="go">Explore sector &rarr;</span>
       </Link>
-      <Link className="isec image-card" to="/industries/sugar-processing">
+      <Link className="isec image-card" to="/industries/suger-refinery-industries">
         <img className="card-bg" src="https://images.unsplash.com/photo-1676035970014-1309dbbc3c6c?auto=format&fit=crop&w=1200&q=80" alt="Sugar processing factory" loading="lazy" />
         <span className="k">Decolourise · soften · DM</span>
         <b>Sugar Processing</b>
         <span className="d">Liquor decolourisation, softening and demineralisation for cane and refined sugar.</span>
         <span className="go">Explore sector &rarr;</span>
       </Link>
-      <Link className="isec image-card" to="/industries/textile-dye">
+      <Link className="isec image-card" to="/industries/textile-industries">
         <img className="card-bg" src="https://images.unsplash.com/photo-1741176505800-caaa3a52631a?auto=format&fit=crop&w=1200&q=80" alt="Textile manufacturing and dye industry" loading="lazy" />
         <span className="k">Soften · DM · effluent</span>
         <b>Textile & Dye</b>
         <span className="d">Soft water for consistent dyeing, demineralised boiler feed and effluent colour removal.</span>
         <span className="go">Explore sector &rarr;</span>
       </Link>
-      <Link className="isec image-card" to="/industries/chemical-intermediates">
+      <Link className="isec image-card" to="/industries/chemicalindustries">
         <img className="card-bg" src="https://images.unsplash.com/photo-1636747423727-2d39d0aa9796?auto=format&fit=crop&w=1200&q=80" alt="Chemical processing plant" loading="lazy" />
         <span className="k">DM · heavy metal · ZLD</span>
         <b>Chemical & Intermediates</b>
         <span className="d">Process demineralisation, softening, heavy-metal removal and ZLD.</span>
         <span className="go">Explore sector &rarr;</span>
       </Link>
-      <Link className="isec image-card" to="/industries/paper-pulp">
+      <Link className="isec image-card" to="/industries/paper-pulp-industries">
         <img className="card-bg" src="https://images.unsplash.com/photo-1564038057948-09f845445508?auto=format&fit=crop&w=1200&q=80" alt="Paper and pulp mill" loading="lazy" />
         <span className="k">Soften · DM · polish</span>
         <b>Paper & Pulp</b>
         <span className="d">Process water softening, demineralisation and condensate polishing.</span>
         <span className="go">Explore sector &rarr;</span>
       </Link>
-      <Link className="isec image-card" to="/industries/food-beverage">
+      <Link className="isec image-card" to="/industries/food-beverage-industries">
         <img className="card-bg" src="https://images.unsplash.com/photo-1530037335614-e68828dcf258?auto=format&fit=crop&w=1200&q=80" alt="Food and beverage production facility" loading="lazy" />
         <span className="k">Soften · demin · decolourise</span>
         <b>Food & Beverage</b>
@@ -402,7 +402,7 @@ export default function Industries() {
 
 
 </main>
-<div className="sticky"><a className="btn btn-white" href="tel:+912602432021">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
+<div className="sticky"><a className="btn btn-white" href="tel:+919016711708">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
 
 
 

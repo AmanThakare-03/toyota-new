@@ -333,8 +333,8 @@ function ProductCard({ grade }) {
           </div>
 
           <div className="pt-3 flex flex-wrap items-center gap-3">
-            <Button href="#enquiry-form" goldButton={gold} className="px-5 py-2.5">Discuss This Capability</Button>
-            <Button href="#enquiry-form" className="px-5 py-2.5 !bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34]">Enquire Now</Button>
+            <Button href="/contact" goldButton={gold} className="px-5 py-2.5">Discuss This Capability</Button>
+            <Button href="/contact" className="px-5 py-2.5 !bg-white !text-[#0A2C4B] border border-[#0A2C4B]/20 hover:!border-[#B27B34]">Enquire Now</Button>
           </div>
         </div>
       </div>
@@ -485,12 +485,12 @@ function MainContent() {
               <h3 className="font-serif text-2xl font-bold mb-2 text-white">Discuss your specialty requirement</h3>
               <p className="text-xs text-slate-300 leading-relaxed mb-6 font-light">Tell us the metal or process problem you need to solve — we’ll recommend and manufacture the right resin.</p>
               <div className="space-y-3">
-                <Button href="#enquiry-form" goldButton className="w-full">Discuss your process</Button>
+                <Button href="/contact" goldButton className="w-full">Discuss your process</Button>
                 <a href="https://wa.me/919898701010" target="_blank" rel="noopener noreferrer" className="interactive-btn w-full flex items-center justify-center py-2.5 px-4 bg-transparent hover:bg-white/10 text-white text-xs font-semibold uppercase tracking-widest chamfer-tr border border-white/40">WhatsApp us</a>
               </div>
               <div className="mt-6 pt-4 border-t border-slate-700/80 text-center">
                 <span className="text-[10px] font-mono text-slate-400 block mb-1">DIRECT TECHNICAL DESK</span>
-                <a className="text-xs font-mono text-[#E5A855] hover:text-white" href="tel:+912602432021">+91 260 2432021</a>
+                <a className="text-xs font-mono text-[#E5A855] hover:text-white" href="tel:+919016711708">+91 90167 11708</a>
               </div>
             </Spotlight>
 
@@ -519,10 +519,10 @@ function MainContent() {
               <h4 className="text-xs font-mono uppercase tracking-widest text-[#0A2C4B] font-bold border-b border-slate-200 pb-3 mb-3">Related products</h4>
               <ul className="text-xs font-medium space-y-2.5 text-slate-700">
                 {[
-                  { item: "Cation Exchange Resins", href: "/products/cation-exchange-resins", image: cationCardImage },
-                  { item: "Anion Exchange Resins", href: "/products/anion-exchange-resins", image: anionCardImage },
-                  { item: "Mixed Bed Resins", href: "/products/mixed-bed-resins", image: mixedBedCardImage },
-                  { item: "Water Softener Resins", href: "/products/water-softener-resins", image: softenerCardImage },
+                  { item: "Cation Exchange Resins", href: "/products/cationexchangeresins", image: cationCardImage },
+                  { item: "Anion Exchange Resins", href: "/products/anionexchangeresins", image: anionCardImage },
+                  { item: "Mixed Bed Resins", href: "/products/mixedbedexchangeresin", image: mixedBedCardImage },
+                  { item: "Water Softener Resins", href: "/products/watersoftenerresins", image: softenerCardImage },
                 ].map(({ item, href, image }) => (
                   <li key={item}><a className="hover:text-[#1868A8] flex items-center gap-3 py-1" href={href}><img src={image} alt={item} className="h-12 w-12 object-cover border border-slate-200 shrink-0" /><span className="flex-1">{item}</span><span className="text-[#B27B34] font-bold">→</span></a></li>
                 ))}

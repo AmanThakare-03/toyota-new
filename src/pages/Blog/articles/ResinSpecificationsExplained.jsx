@@ -181,7 +181,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 <li><b>Total (and operating) exchange capacity</b> — equal or higher.</li>
 <li><b>Effective / bead size</b> — comparable, for the same hydraulics.</li>
 </ul>
-<p>Share the technical data sheet of the resin you run today and our team will confirm the equivalent AGRION grade on these specifications — a faster, more reliable match than comparing brand names. See the ranges on the <Link to="/products/cation-exchange-resins">cation</Link>, <Link to="/products/anion-exchange-resins">anion</Link> and <Link to="/products/mixed-bed-resins">mixed bed</Link> product pages.</p>
+<p>Share the technical data sheet of the resin you run today and our team will confirm the equivalent AGRION grade on these specifications — a faster, more reliable match than comparing brand names. See the ranges on the <Link to="/products/cationexchangeresins">cation</Link>, <Link to="/products/anionexchangeresins">anion</Link> and <Link to="/products/mixedbedexchangeresin">mixed bed</Link> product pages.</p>
 <p>This is worth stressing for anyone new to switching supplier: you do not have to take a leap of faith on a brand. Equivalence lives in the ion exchange resin specifications, and a match on form, capacity and bead size is a match in the vessel. That is how a confident, low-risk changeover is done — on the numbers.</p>
 <h2 id="mistakes">Common mistakes reading ion exchange resin specifications</h2>
 <ul>
@@ -213,7 +213,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 <p>Send the datasheet you’re working from — we’ll read the specs with you and confirm the right grade.</p>
 <Link className="btn btn-green" to="/contact">Send an enquiry</Link>
 <a className="btn btn-wa" href="https://wa.me/919898701010">WhatsApp us</a>
-<a className="btn btn-wa" href="tel:+912602432021">Call +91 260 2432021</a>
+<a className="btn btn-wa" href="tel:+919016711708">Call +91 90167 11708</a>
 </div>
 <div className="box"><h4>Related guides</h4><ul>
 <li><Link to="/blog/how-to-read-resin-tds">How to read a resin TDS</Link></li>
@@ -221,11 +221,11 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 <li><Link to="/blog/macroporous-vs-gel-resins">Macroporous vs gel resins</Link></li>
 </ul></div>
 <div className="box"><h4>Products</h4><ul>
-<li><Link to="/products/cation-exchange-resins">Cation Exchange Resins</Link></li>
-<li><Link to="/products/anion-exchange-resins">Anion Exchange Resins</Link></li>
-<li><Link to="/products/mixed-bed-resins">Mixed Bed Resins</Link></li>
-<li><Link to="/products/water-softener-resins">Water Softener Resins</Link></li>
-<li><Link to="/products/specialty-resins">Specialty Resins</Link></li>
+<li><Link to="/products/cationexchangeresins">Cation Exchange Resins</Link></li>
+<li><Link to="/products/anionexchangeresins">Anion Exchange Resins</Link></li>
+<li><Link to="/products/mixedbedexchangeresin">Mixed Bed Resins</Link></li>
+<li><Link to="/products/watersoftenerresins">Water Softener Resins</Link></li>
+<li><Link to="/products/specialtyresins">Specialty Resins</Link></li>
 </ul></div>
 <div className="box"><h4>Applications</h4><ul>
 <li><Link to="/applications/dm-plant-resin">DM Plant / Demineralisation</Link></li>
@@ -241,7 +241,7 @@ h1,h2{font-family:"EB Garamond",serif;color:var(--navy)}h1{font-size:72px;line-h
 
 </main>
 
-<div className="sticky"><a className="btn btn-white" href="tel:+912602432021">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
+<div className="sticky"><a className="btn btn-white" href="tel:+919016711708">Call</a><a className="btn btn-green" href="https://wa.me/919898701010">WhatsApp</a><Link className="btn btn-ghost" to="/contact">Enquire</Link></div>
 
 
     </>

@@ -1,12 +1,12 @@
 import { blogEntries, blogPostPath } from "./blogIndex";
+import { INDUSTRY_ROUTES, PRODUCT_PATH, PRODUCT_ROUTES } from "./routes";
 
-export const productLinks = [
-  { name: "Cation Exchange Resins", path: "/products/cationanion" },
-  { name: "Anion Exchange Resins", path: "/products/anion" },
-  { name: "Mixed Bed Resins", path: "/products/mixedbed" },
-  { name: "Water Softener Resins", path: "/products/watersoftener" },
-  { name: "Specialty Resins", path: "/products/specialty" },
-];
+// Product and industry entries come from the canonical URL registry, so the
+// menus, the footer and the search index can never drift from the routes.
+export const productLinks = PRODUCT_ROUTES.map(({ name, path }) => ({
+  name,
+  path,
+}));
 
 export const aboutLinks = [
   { name: "Quality & Certifications", path: "/quality-compliance" },
@@ -31,14 +31,10 @@ export const applicationLinks = [
   { name: "Water Softener Resin", path: "/applications/water-softener-resin" },
 ];
 
-export const industryLinks = [
-  { name: "Chemical Industries", path: "/industries/chemical" },
-  { name: "Food & Beverage", path: "/industries/food-beverage" },
-  { name: "Paper Pulp", path: "/industries/paper" },
-  { name: "Power Thermal", path: "/industries/power-thermal" },
-  { name: "Sugar Refinery", path: "/industries/sugar-seo-kit" },
-  { name: "Textile", path: "/industries/textile" },
-];
+export const industryLinks = INDUSTRY_ROUTES.map(({ name, path }) => ({
+  name,
+  path,
+}));
 
 // Derived from src/config/blogIndex.js so the menu can never drift from the
 // published posts.
@@ -95,11 +91,11 @@ export const footerCompanyLinks = [
 ];
 
 export const footerResinCategories = [
-  { name: "Anion Exchange Resins", path: "/products/anion" },
-  { name: "Cation Exchange Resins", path: "/products/cationanion" },
-  { name: "Specialty Resins", path: "/products/specialty" },
-  { name: "Mixed Bed Resins", path: "/products/mixedbed" },
-  { name: "Water Softener Resins", path: "/products/watersoftener" },
+  { name: "Anion Exchange Resins", path: PRODUCT_PATH.anion },
+  { name: "Cation Exchange Resins", path: PRODUCT_PATH.cation },
+  { name: "Specialty Resins", path: PRODUCT_PATH.specialty },
+  { name: "Mixed Bed Resins", path: PRODUCT_PATH.mixedBed },
+  { name: "Water Softener Resins", path: PRODUCT_PATH.waterSoftener },
 ];
 
 export const footerLegalLinks = [

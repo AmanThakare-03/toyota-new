@@ -405,10 +405,10 @@ function Product() {
                 Send an enquiry
               </a>
               <a
-                href="tel:+912602432021"
+                href="tel:+919016711708"
                 className="border border-white/30 px-6 py-4 font-mono text-[10px] font-bold uppercase tracking-wider text-white transition hover:bg-white/10"
               >
-                Call +91 260 2432021
+                Call +91 90167 11708
               </a>
             </div>
           </div>

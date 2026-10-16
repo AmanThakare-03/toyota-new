@@ -270,7 +270,7 @@ export default function Servicearea() {
             </div>
             <div className="flex flex-wrap gap-3 shrink-0">
               <a href="/contact" className="inline-flex items-center justify-center bg-[#B27B34] text-[#051826] px-5 py-3 service-area-font-mono text-xs font-bold uppercase tracking-wider">Send an enquiry →</a>
-              <a href="tel:+912602432021" className="inline-flex items-center justify-center border border-white/40 text-white px-5 py-3 service-area-font-mono text-xs font-bold uppercase tracking-wider">Call +91 260 2432021</a>
+              <a href="tel:+919016711708" className="inline-flex items-center justify-center border border-white/40 text-white px-5 py-3 service-area-font-mono text-xs font-bold uppercase tracking-wider">Call +91 90167 11708</a>
             </div>
           </div>
         </section>

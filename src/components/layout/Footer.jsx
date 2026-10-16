@@ -102,11 +102,27 @@ export default function Footer() {
               </div>
 
               <p className="text-sm leading-6 text-slate-300">
-                Plot 108/1, GIDC Industrial Estate,
+                Plot No. 100, Vapi-Silvassa Road,
                 <br />
-                Vapi-Silvassa Road,
+                GIDC Vapi,
                 <br />
-                Vapi, Gujarat 396195,
+                Gujarat 396195,
+                <br />
+                India
+              </p>
+            </div>
+
+            <div className="mb-6">
+              <div className="mb-2 font-mono text-[8px] uppercase tracking-wider text-slate-500">
+                Marketing Office
+              </div>
+
+              <p className="text-sm leading-6 text-slate-300">
+                Extn 1.2, Sidhpura Co-Op Ind. Estate, S.V. Road,
+                <br />
+                Goregaon (W), Mumbai 400104,
+                <br />
+                Maharashtra, 
                 <br />
                 India
               </p>
@@ -119,10 +135,17 @@ export default function Footer() {
               </div>
 
               <a
-                href="tel:+912602432021"
+                href="tel:+919016711708"
                 className="text-base font-semibold text-white transition-colors hover:text-[#DF9B42]"
               >
-                +91 260 2432021
+                +91 90167 11708
+              </a>
+              <br />
+              <a
+                href="tel:02249678234"
+                className="text-base font-semibold text-white transition-colors hover:text-[#DF9B42]"
+              >
+                022 4967 8234
               </a>
             </div>
 
@@ -141,13 +164,13 @@ export default function Footer() {
             </div>
 
             {/* CTA */}
-            <Link
-              to="/contact"
-              className="mt-7 inline-flex w-full items-center justify-center gap-3 bg-[#B27B34] px-6 py-4 font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-white transition-all hover:bg-[#DF9B42]"
-            >
-              Request a Quote
-              <span className="text-base">→</span>
-            </Link>
+            <a
+  href="mailto:info@toyotachemicals.co.in?subject=Request%20for%20Quote"
+  className="mt-7 inline-flex w-full items-center justify-center gap-3 bg-[#B27B34] px-6 py-4 font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-white transition-all hover:bg-[#DF9B42]"
+>
+  Request a Quote
+  <span className="text-base">→</span>
+</a>
           </div>
         </div>
       </div>
@@ -185,7 +208,7 @@ export default function Footer() {
       <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-[#B27B34]/30 bg-[#06182B]/95 p-3 backdrop-blur-md md:hidden">
         <div className="grid grid-cols-2 gap-2">
           <a
-            href="tel:+912602432021"
+            href="tel:+919016711708"
             className="flex items-center justify-center gap-2 border border-white/20 px-4 py-3 font-mono text-[9px] font-bold uppercase tracking-wider text-white"
           >
             <span>☎</span>
